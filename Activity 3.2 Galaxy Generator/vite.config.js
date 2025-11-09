@@ -1,18 +1,3 @@
-const isCodeSandbox = 'SANDBOX_URL' in process.env || 'CODESANDBOX_HOST' in process.env
-
-export default {
-    root: 'src/',
-    publicDir: '../static/',
-    base: './',
-    server:
-    {
-        host: true,
-        open: !isCodeSandbox // Open if it's not a CodeSandbox
-    },
-    build:
-    {
-        outDir: '../dist',
-        emptyOutDir: true,
-        sourcemap: true
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0468397d28bf733dc55a5a32aeb73f193f90839ef51ad1669907e4d0f0fccc8f
+size 396
